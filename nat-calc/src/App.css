@@ -1,24 +1,19 @@
-.container {
+
+
+.symbol {
+  margin: 75px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin: 2em;
 }
 
-.box {
-  border: 2px solid black;
+.container {
+  margin: 100px;
   width: 200px;
-  height: 200px;
+  border: 2px solid black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.red {
-  background-color: red;
+form {
+display: flex;
+flex-direction: column;
 }
-.blue {
-  background-color: blue;
-}
-.green {
-  background-color: green;
-}
-
-
